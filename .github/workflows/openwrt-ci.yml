@@ -10,8 +10,9 @@ name: 小娱C5 MT7621
 on:
   schedule:
     - cron: 0 20 * * *
-  release:
-    types: [published]
+  push:
+    branches:
+      - master
 
 jobs:
 
